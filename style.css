@@ -1,0 +1,320 @@
+/* EJ PORTFOLIO - HTML AND CSS ONLY */
+/* Main color theme: navy, electric blue, cyan, white, and violet */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #eaf2ff;
+    background: #071426;
+    line-height: 1.6;
+}
+
+header {
+    background: #061020;
+    border-bottom: 2px solid #173d69;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.brand {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.brand span, h1 span, h2 span {
+    color: #39a9ff;
+}
+
+nav a {
+    display: inline-block;
+    color: #dcecff;
+    text-decoration: none;
+    padding: 9px 13px;
+    margin: 3px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #071426;
+    background: #65d5ff;
+}
+
+nav a:active, .button:active {
+    background: #a98bff;
+}
+
+.hero {
+    padding: 75px 8%;
+    text-align: center;
+    background: #0b2040;
+    border-bottom: 1px solid #24558a;
+}
+
+.hero-text, .hero-photo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 44%;
+    margin: 15px;
+    text-align: left;
+}
+
+.eyebrow {
+    color: #65d5ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+.intro {
+    color: #c1d2e8;
+    max-width: 560px;
+}
+
+.hero-photo {
+    text-align: center;
+    background: #102d54;
+    border: 2px solid #278ee8;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 12px 30px #020914;
+}
+
+.hero-photo img {
+    width: 220px;
+    max-width: 90%;
+    border: 5px solid #65d5ff;
+    border-radius: 12px;
+}
+
+.hero-photo p {
+    color: #9ccfff;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: inline-block;
+    background: #1685e8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 2px solid #65d5ff;
+    border-radius: 8px;
+    margin: 12px 8px 8px 0;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #65d5ff;
+    color: #071426;
+}
+
+.text-link {
+    color: #8edcff;
+    margin: 10px;
+}
+
+.section {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+.light {
+    background: #f0f5fc;
+    color: #152a45;
+}
+
+.light h2, .light h3 {
+    color: #10284a;
+}
+
+.light .eyebrow {
+    color: #126fc1;
+}
+
+.about-card, .contact-card {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 28px;
+    text-align: left;
+    background: #ffffff;
+    border: 2px solid #b9d9f4;
+    border-left: 7px solid #1685e8;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px #173b6018;
+}
+
+.about-card p, .contact-card p {
+    color: #40536b;
+}
+
+.cards {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    min-width: 220px;
+    margin: 1%;
+    padding: 22px;
+    text-align: left;
+    background: #10294b;
+    border: 1px solid #285987;
+    border-radius: 13px;
+    box-shadow: 0 8px 20px #02091466;
+}
+
+.card:hover {
+    border: 1px solid #65d5ff;
+    background: #173a66;
+}
+
+.card p {
+    color: #c4d7ec;
+}
+
+.symbol {
+    color: #65d5ff;
+    font-size: 32px;
+}
+
+.certificate {
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #c6d9eb;
+}
+
+.certificate h3 {
+    color: #10284a;
+    font-size: 17px;
+}
+
+.certificate p {
+    color: #52677f;
+}
+
+.certificate img {
+    width: 100%;
+    height: 165px;
+    object-fit: contain;
+    background: #e9f1fa;
+    border: 1px solid #c5d8eb;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.certificate:hover img {
+    border: 2px solid #1685e8;
+}
+
+.swatches {
+    padding: 8px 0;
+}
+
+.swatch {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid #ffffff;
+}
+
+.navy { background: #071426; }
+.blue { background: #1685e8; }
+.cyan { background: #65d5ff; }
+.violet { background: #8d70e8; }
+
+.game-section {
+    background: #091a30;
+}
+
+.game-card {
+    border-top: 4px solid #65d5ff;
+}
+
+.game-label {
+    color: #65d5ff !important;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+details {
+    margin-top: 15px;
+    padding: 12px;
+    background: #071426;
+    border: 1px solid #3985bd;
+    border-radius: 8px;
+}
+
+summary {
+    color: #65d5ff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+summary:hover {
+    color: #ffffff;
+}
+
+.answer {
+    color: #ffffff !important;
+    border-top: 1px solid #285987;
+    padding-top: 10px;
+}
+
+.note {
+    color: #9eb4cd;
+    font-size: 13px;
+}
+
+.contact-card {
+    text-align: center;
+}
+
+footer {
+    padding: 25px 8%;
+    text-align: center;
+    background: #050d19;
+    color: #a9bed5;
+}
+
+footer a {
+    color: #65d5ff;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Color theme reference:
+   Change the colors above to create another palette.
+   Main blue: #1685e8 | Cyan: #65d5ff | Navy: #071426
+*/
